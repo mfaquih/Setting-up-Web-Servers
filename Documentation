@@ -2,11 +2,9 @@ This section will cover how to install 'Apache Webserver' and 'Nginx Webserver' 
 
 In this scenario apache web server would be using the default port 80 and Nginx will be using port 8080.
 
-```We used google cloud for virtual machine using Centos 7. The below configurations were used on google cloud console for setting up ```
+We used google cloud for virtual machine using Centos 7. The below configurations were used on google cloud console for setting up:
 
-
-
-1. Operating System Selection:
+a. Operating System Selection:
 CentOS 7 - x86_64 built on 20190116.
 
 2. Hard Disk for that particular VM:
