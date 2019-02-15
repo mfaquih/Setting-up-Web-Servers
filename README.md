@@ -20,13 +20,13 @@ Once the VM is created, we can now login to this machine. In order to access the
 
 We now need to install Apache webserver, for this we can use 'yum' to install Apache through CentOS's default software repositories.
 
-yum install httpd
+``` yum install httpd ```
 
-systemctl enable httpd.service
+``` systemctl enable httpd.service ```
 
 enable Apache as a CentOS service so that it will automatically start after a reboot.
 
-systemctl restart httpd
+``` systemctl restart httpd ```
 
 Using the above command will start the apache webservices. We can now directly use the public IP of this VM and test the apache web server is up and running.
 
