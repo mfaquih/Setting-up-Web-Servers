@@ -70,5 +70,10 @@ We can also use the below command and the status for Nginx web server.
 
 In order to fix this problem we need to point nginx to a different port. This can be achived by update nginx configuration file to a different port. As for apache we are using port 80, for nginx we can use port 8080.
 
+Go to Nginx ``` nginx.conf ``` file, path : ``` /etc/nginx ``` and update the listen section in the configuration file.
+
+``` listen 8080;
+listen [::]:8080 ipv6only=on default_server; ```
+
 
 
