@@ -90,3 +90,5 @@ Path: ``` /usr/share/nginx/html ```.
 Changes will be reflected after restarting nginx.
 
 ## After following the above we are now able to achive two web servers installed on the same VM using different ports.
+
+###### The same needs to be followed for the second node as well. This way we will have two VMs and both VMs will be having apache and nginx. 
