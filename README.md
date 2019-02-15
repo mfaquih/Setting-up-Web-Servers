@@ -4,20 +4,19 @@
 
 ###### We used google cloud for virtual machine using Centos 7. The below configurations were used on google cloud console for setting up:
 
-a. Operating System Selection:
+- Operating System Selection:
 CentOS 7 - x86_64 built on 20190116.
 
-b. Hard Disk for that particular VM:
+- Hard Disk for that particular VM:
 Standard Persistent disk - 10 GB.
 
-c. Firewall Access:
+- Firewall Access:
+1. Allow HTTP traffic
+2. Allow HTTPS traffic
 
-Allow HTTP traffic
-Allow HTTPS traffic
+Once the VM is created, we can now login to this machine. In order to access the newly created VM from a root user we can use the following command:
 
-Once the VM is created, we can now login this machine. In order to access the newly created VM from a root user we can use the following command:
-
-sudo su
+``` sudo su ```
 
 We now need to install Apache webserver, for this we can use 'yum' to install Apache through CentOS's default software repositories.
 
