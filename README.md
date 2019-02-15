@@ -32,6 +32,12 @@ Using the above command will start the apache webservices. We can now directly u
 
 Once this is tested successfully, can can add our own text inside the index.html file. This file needs to be created on /etc/www/html/.
 
-Inside this file, we can add the text we wish to write. Restart the apache services and we can now see the new text on the web browser.
+Path: ``` /var/www/html/index.html ```
 
-For apache there is nothing to be updated inside httpd.conf file, path: /etc/httpd/conf.
+Inside this file, we can add the text we wish to see on the web page. Restart the apache services and we can now see the new text on the web browser.
+
+For apache there is nothing to be updated inside httpd.conf file.
+
+Path: ``` /etc/httpd/conf/httpd.conf ```
+
+###### As we need to create a cluster between two nodes, we will now create one more VM using google clould. Please following the same steps for second node. 
