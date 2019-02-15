@@ -36,8 +36,8 @@ Path: ``` /var/www/html/index.html ```
 
 Inside this file, we can add the text we wish to see on the web page. Restart the apache services and we can now see the new text on the web browser.
 
-For apache there is nothing to be updated inside httpd.conf file.
+Also note that for apache there is NOTHING to be updated inside ``` httpd.conf ``` file as it runs on the default port : 80.
 
 Path: ``` /etc/httpd/conf/httpd.conf ```
 
-###### As we need to create a cluster between two nodes, we will now create one more VM using google clould. Please following the same steps for second node. 
+## As we need to create a cluster between two nodes, we will now create one more VM using google clould. Please following the same steps for second node. 
