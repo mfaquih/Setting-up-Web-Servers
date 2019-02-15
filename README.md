@@ -72,8 +72,11 @@ In order to fix this problem we need to point nginx to a different port. This ca
 
 Go to Nginx ``` nginx.conf ``` file, path : ``` /etc/nginx ``` and update the listen section in the configuration file.
 
-``` listen 8080;
-listen [::]:8080 ipv6only=on default_server; ```
+``` listen 8080; ```
+``` listen [::]:8080 ipv6only=on default_server; ```
 
+Save the file and restart nginx. This time nginx should start successfully.
+
+Please note that as now nginx is pointing to port 8080, we now need to open port 8080 on google fire wall setting. As port 8080 is not the default port we need to open the fire wall access from google cloud. 
 
 
